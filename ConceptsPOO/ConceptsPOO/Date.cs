@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConceptsPOO
+﻿namespace ConceptsPOO
 {
     public class Date
     {
@@ -52,7 +46,7 @@ namespace ConceptsPOO
 
         public override string ToString()
         {
-            return $"{_year}/{_month:00}/{_day:00}"; 
+            return $"{_year}/{_month:00}/{_day:00}";
         }
     }
 }
